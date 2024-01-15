@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+:root {
+    --primary-text-color: #3a3a3a;
+    --secondary-text-color: #6C6C6C;
+    --third-text-color: #787885;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 100px;
+}
+
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.journey-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.journey-title {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.journey-description {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.journey-btn {
+    color: #fff;
+    border-radius: 41px;
+    background: #E02C6D;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    border: none;
+}
+
+.journey-image {
+    width: 475px;
+    height: 475px;
+    flex-shrink: 0;
+    border-radius: 475px;
+    border: 2px solid var(--Brand-Purple-100, #F1E4FF);
+    margin-bottom: 100px;
+    background: url('/images/Circle\ design.svg'), lightgray -256.697px -123px / 220.317% 154.831% no-repeat;
+
+}
+
+.hr {
+    width: 1110px;
+    height: 1px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg rgba(192, 204, 218, 0.60) 50.38%);
+}
+
+.dealer-icons {
+    text-align: center;
+}
+
+.dealer-icons img {
+    padding: 30px;
+}
+
+.popular {
+    margin-top: 100px;
+    width: 1440px;
+    height: 3306px;
+    margin-left: 200px;
+}
+
+.popular-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.populer-title {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* .populer-title{
+    margin-bottom: 50px;
+} */
+.popular-card {
+    padding: 15px;
+    width: 310px;
+    height: 480px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    border: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.star {
+    display: flex;
+    text-align: center;
+}
+
+.star p {
+    margin-left: 25px;
+}
+
+.see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: navajowhite;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-right: 500px;
+}
